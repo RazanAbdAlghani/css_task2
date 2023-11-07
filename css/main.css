@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Asap+Condensed&family=Rubik&family=Sometype+Mono:ital@1&display=swap');
+/* public style */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+
+}
+/*Navbar*/
+.navbar{
+    background-color:rgb(33, 37, 41);
+    border-color:rgb(33, 37, 41) ;
+    height: 70px;
+    position: sticky;
+    top:0;
+}
+.navbar .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+
+}
+.logo{
+    padding:16px;
+}
+.logo img{
+    width: 152px;
+    height: 40px;
+}
+/*list style*/
+.list  ul {
+    display: flex;
+    gap:30px;
+    align-items: center;
+
+}
+.list li{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+ .list a{
+    text-decoration: none;
+    color:white;
+    display: inline;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+ }
+/*protfolio style*/
+.portfolio{
+  background-color:cornsilk;
+  text-align: center;
+}
+.portfolio .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+.portfolio h2{
+    width: 100%;
+    padding-top: 60px;
+    font-family: 'Rubik', sans-serif;
+  }
+  .portfolio p{
+    width: 100%;
+    margin-top: 20px;
+    
+    padding-bottom:30px;
+}
+.portfolio-item{
+    width: 30%;
+    padding: 20px;
+    
+}
+.portfolio img{
+    width: 100%;
+    display: block;
+
+}
